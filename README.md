@@ -10,7 +10,7 @@ About my system:
 - Computer : Lenovo LEGION Y545
 - GPU : NVIDIA GeFORCE GTX 1660Ti
 
-Considering that you have just installed Ubuntu, One of the few problems prevelant is that of getting the WiFi working. Click the WiFi icon and Click 'Enable WiFi', if WiFi networks are not detected. Connect ethernet to the system as we will require internet to update Ubuntu drivers. We need to allow Ubuntu have updates. Go to **Software & Updates > Ubuntu Software** : Enable __ main, universe, restricted, multiverse__ (For more info about them: https://help.ubuntu.com/community/Repositories/Ubuntu).
+Considering that you have just installed Ubuntu, One of the few problems prevelant is that of getting the WiFi working. Click the WiFi icon and Click 'Enable WiFi', if WiFi networks are not detected. Connect ethernet to the system as we will require internet to update Ubuntu drivers. We need to allow Ubuntu have updates. Go to **Software & Updates > Ubuntu Software** : Enable "_main, universe, restricted, multiverse_" (For more info about them: https://help.ubuntu.com/community/Repositories/Ubuntu).
 Then,
 ```
 sudo apt-get update && sudo apt-get upgrade
