@@ -75,7 +75,11 @@ cat ~/.gitconfig
 ```
 
 ## ROS
-It is highly recommended to follow ROS Installation official documentation: http://wiki.ros.org/kinetic/Installation/Ubuntu
+It is highly recommended to follow ROS Installation official documentation: http://wiki.ros.org/kinetic/Installation/Ubuntu. Or clone this repo. and follow these commands (ROS-kinetic-desktop-full):
+```
+cd ~/Starting-with-Ubuntu
+./ros_install.sh
+```
 
 ## NVIDIA Driver
 First, Go to **Software & Updates > Additional Drivers**, If you can't see any NVIDIA drivers, Follow the following steps in terminal:
