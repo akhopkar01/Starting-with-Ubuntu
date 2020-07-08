@@ -82,7 +82,10 @@ cd ~/Starting-with-Ubuntu
 ```
 
 ## NVIDIA Driver
-First, Go to **Software & Updates > Additional Drivers**, If you can't see any NVIDIA drivers, Follow the following steps in terminal:
+First, Go to **Software & Updates > Additional Drivers**, Select the NVIDIA-xxx (proprietary), then Apply Changes and restart the computer. 
+Try checking for the driver by command: ```nvidia-smi``` in the terminal.
+
+If you can't see any NVIDIA drivers, Follow the following steps in terminal:
 ```
 lspci | grep VGA
 uname -r
